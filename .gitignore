@@ -1,0 +1,5 @@
+*.exe
+
+/.vscode
+astyle-code-format.cfg
+code-formatting.bat
