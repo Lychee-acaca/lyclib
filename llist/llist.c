@@ -7,7 +7,6 @@
   * @retval 0 添加成功
   */
 uint8_t llist_push(llist* list, const llist_dtype data) {
-    struct node* head;
     struct node* new_node;
 
     new_node = (struct node*)malloc(sizeof(struct node));
